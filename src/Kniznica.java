@@ -8,7 +8,11 @@ public class Kniznica {
     }
 
      public void vypis(){
-         System.out.println(zoznamKnih);
+        for (Kniha k : zoznamKnih){
+            System.out.println(k.getAutor());
+            System.out.println(k.getNazov());
+            System.out.println();
+        }
     }
 
 }

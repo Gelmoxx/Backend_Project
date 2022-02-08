@@ -4,5 +4,9 @@ public class Hlavna {
         Kniha k2 = new Kniha("J.K. Rowlingová", "Harry Potter: Kameň mudrcov");
 
         System.out.println("Na sklade máme: ");
+        Kniznica knzinica = new Kniznica();
+        knzinica.pridajKnihu(k1);
+        knzinica.pridajKnihu(k2);
+        knzinica.vypis();
     }
 }

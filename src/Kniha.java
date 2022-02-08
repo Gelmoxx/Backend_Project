@@ -5,6 +5,9 @@ public class Kniha {
     private String nazov;
     protected int id;
 
+    public Kniha() {
+    }
+
     public Kniha(String autor, String nazov) {
         this.autor = autor;
         this.nazov = nazov;
