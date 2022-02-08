@@ -12,6 +12,7 @@ public class Kniha {
 
     public void generujId(){
         Random rd = new Random();
+        this.id = rd.nextInt(15000);
     }
 
     public String getAutor() {
